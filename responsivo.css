@@ -1,0 +1,49 @@
+@media only screen and (max-width: 768px){
+    .inicio-da-page{
+        height: 999px;
+        background-color: #1d1d1b;
+        border-top: 5px solid #e34533;
+    }
+
+    .barra-navegacao{
+        height: 100px;
+    }
+
+    .logo{
+        width: 60%;
+        margin: 0 auto; 
+        text-align: center;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .chamada-principal{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .texto-principal{
+        width: 55%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .texto-principal h2{
+        width: 100%;
+        font-family: "Cabin", sans-serif;
+        color: #e34533;
+        font-size: 40px;
+        line-height: 30pt;
+        letter-spacing: 10px;
+        text-transform: uppercase;
+    }
+
+    .imagem-principal{
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 30px;
+        width: 45%;
+    }
+}

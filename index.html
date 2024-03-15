@@ -5,24 +5,97 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Formulário Login com Captcha</title>
+    <link rel="stylesheet" href="responsivo.css">
+    <link rel="icon" href="imagens/logo-bgs.png" type="image/png">
+    <title>BGS - Brasil Game Show</title>
 </head>
 <body>
-    <div class="login">
-        <div class="fundo">
-            <form id="form">
-                <label for="username">Nome Completo</label><br>
-                <input type="text" name="username"><br>
+    <div class="container">
+        <div class="inicio-da-page">
+            <div class="barra-navegacao">
+                <div class="logo">
+                    <img style="max-width: 50%;" src="imagens/logo-bgs-escura.png" alt="">
+                </div>
+                <div class="menu">
+                    <a href="#explicar-bgs" class="botao-de-acao">O que é a BGS?</a>
+                    <a href="#tela-video" class="botao-de-acao">Video Oficial</a>
+                    <a href="#produtos-bgs" class="botao-de-acao">Produtos BGS</a>
+                    <a href="#mais-info" class="botao-de-acao">Quer saber mais?</a>
+                    <a href="https://www.brasilgameshow.com.br/ingressos/" class="botao-ingresso-menu">Ingressos</a>
+                </div>
+            </div>
 
-                <label for="email">E-mail</label><br>
-                <input type="text" name="email"><br>
-
-                <label for="password">Senha</label><br>
-                <input type="password" name="password"><br>
-
-                <input type="submit" name="enviar" id="enviar"><br>
-            </form>
+            <div class="chamada-principal">
+                <div class="texto-principal">
+                    <h2>Se prepare</h2>
+                    <h2>para o maior evento</h2>
+                    <h2>de Games do Brasil</h2> 
+                    <p>Sinta a adrenalina pulsar, os controles tremerem e a vitória se tornar realidade na BGS, onde cada segundo é uma nova conquista e cada desafio é uma oportunidade única de brilhar!</p>
+                    <a class="botao-ingresso" href="https://www.brasilgameshow.com.br/ingressos/">Ingressos</a>
+                </div>
+                <div class="imagem-principal">
+                    <img style="max-width: 100%;" src="imagens/imagem-mascote.webp" alt="">
+                </div>
+            </div>
         </div>
+
+        <div id="explicar-bgs">
+            <h2>Mas o que é a BGS?</h2>
+            <p>A Brasil Game Show (BGS) é o maior evento de jogos eletrônicos da América Latina, realizado anualmente em São Paulo. Desde sua primeira edição em 2011, a BGS cresceu exponencialmente, tornando-se um marco na indústria de games. Com uma ampla área de exposição, o evento reúne as principais empresas do setor, oferecendo aos visitantes a oportunidade de experimentar os últimos lançamentos, participar de competições, conhecer desenvolvedores e interagir com personalidades da indústria.</p>
+
+            <p>A Brasil Game Show (BGS) é o maior evento de jogos eletrônicos da América Latina, realizado anualmente em São Paulo. Desde sua primeira edição em 2011, a BGS cresceu exponencialmente, tornando-se um marco na indústria de games. Com uma ampla área de exposição, o evento reúne as principais empresas do setor, oferecendo aos visitantes a oportunidade de experimentar os últimos lançamentos, participar de competições, conhecer desenvolvedores e interagir com personalidades da indústria.</p>
+
+            <p>Um dos pontos altos da BGS são os grandes lançamentos de jogos, muitas vezes apresentados em primeira mão pelas principais empresas do setor, criando uma grande expectativa entre os participantes. Ao longo dos anos, a BGS tem se expandido para além das fronteiras do Brasil, atraindo cada vez mais atenção internacional. Com sua atmosfera única e sua capacidade de reunir entusiastas, profissionais e empresas do setor de games, a BGS se consolidou como um ponto de encontro imperdível para todos aqueles que compartilham a paixão pelos jogos eletrônicos.</p>
+        </div>
+
+        <div id="tela-video">
+            <h2>Vídeo Oficial</h2>
+            <div class="video">
+                <video width="940" height="660" controls>
+                    <source src="videos/video-oficial.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="redes-sociais">
+                <a href="https://www.instagram.com/brasilgameshow/" target="_blank"><img src="imagens/bgs-insta.png" alt=""></a>
+                <a href="https://www.facebook.com/BrasilGameShow" target="_blank"><img src="imagens/bgs-facebook.png" alt=""></a>
+                <a href="https://www.twitch.tv/brasilgameshow?lang=pt-br" target="_blank"><img src="imagens/bgs-twitch.png" alt=""></a>
+                <a href="https://www.youtube.com/user/brasilgameshow" target="_blank"><img src="imagens/bgs-youtube.png" alt=""></a>
+                <a href="https://www.tiktok.com/@brasilgameshow?" target="_blank"><img src="imagens/bgs-tiktok.png" alt=""></a>
+                <a href="https://twitter.com/brasilgameshow" target="_blank"><img src="imagens/bgs-twitter.png" alt=""></a>
+            </div>
+        </div>
+
+        <div id="produtos-bgs">
+            <h2>Seu loot da BGS</h2>
+            <img style="max-width: 100%;" src="imagens/produtos-bgs.PNG" alt="produtos da BGS"><br>
+            <a class="botao-produtos" href="https://www.rank1.com.br/bgs-store" target="_blank">Confira os produtos da BGS</a>
+        </div>
+
+        <div id="mais-info">
+            <h2>Quer saber mais?</h2>
+            <div class="fundo-form">
+                <form>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                <button type="submit">Cadastrar</button>
+            </form> 
+            </div>
+        </div>
+        <footer>
+            <div class="logo-footer">
+                <img style="max-width: 20%;" src="imagens/logo-bgs-branca.png" alt="">
+            </div>
+            <div class="redes-sociais">
+                <a href="https://www.instagram.com/brasilgameshow/" target="_blank"><img src="imagens/bgs-insta.png" alt=""></a>
+                <a href="https://www.facebook.com/BrasilGameShow" target="_blank"><img src="imagens/bgs-facebook.png" alt=""></a>
+                <a href="https://www.twitch.tv/brasilgameshow?lang=pt-br" target="_blank"><img src="imagens/bgs-twitch.png" alt=""></a>
+                <a href="https://www.youtube.com/user/brasilgameshow" target="_blank"><img src="imagens/bgs-youtube.png" alt=""></a>
+                <a href="https://www.tiktok.com/@brasilgameshow?" target="_blank"><img src="imagens/bgs-tiktok.png" alt=""></a>
+                <a href="https://twitter.com/brasilgameshow" target="_blank"><img src="imagens/bgs-twitter.png" alt=""></a>
+            </div>
+            <div class="texto-footer">
+                &copy; Brasil Game Show - Todos os direitos Reservados - 2024
+            </div>
+        </footer>
     </div>
 </body>
 </html>
